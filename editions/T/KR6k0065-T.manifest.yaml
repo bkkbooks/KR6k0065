@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6k0065/T/v1
+canonical_location: https://kanripo.org/bkk/KR6k0065/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說優婆塞五戒相經
+  identifiers:
+    krp: KR6k0065
+    cbeta: T24n1476
+    cbeta_old_id: T24n1476
+    authorityid: CA0003808
+    json_key: T1476
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T24/T24n1476.xml
+    old_id: T24n1476
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6k0065_000-T.yaml, hash: 'sha256:fa7b34b470f2b381f6104bf7f0b10842d7bda68349781e2acc2a4b6fe8867673'}
+  - {seq: 1, filename: KR6k0065_001-T.yaml, hash: 'sha256:ade46fb95fa9a698d440ddc0fdc603570a0985989b6686d58ad024652df9a47a'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6k0065_000-T.markers.yaml, hash: 'sha256:f629365783d92c8d019c44c0299a43790aebba57866f0e069c5c392f3c9a4025'}
+  - {seq: 1, role: markers, filename: assets/KR6k0065_001-T.markers.yaml, hash: 'sha256:56f7040dea98dd695ed6512a66be90dc1fa9426bea33a7a63d4e33de66842641'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6k0065_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 6322
+  label: 佛說優婆塞五戒相經一卷
+  type: juan
+  level: 1
+hash: sha256:8a8722c26f8c2a0de1d7a771c073ea4c7530e80abd985f1a4cde48fda2ba8406
