@@ -34,9 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6k0065_000.yaml, hash: 'sha256:fa7b34b470f2b381f6104bf7f0b10842d7bda68349781e2acc2a4b6fe8867673'}
-  - {seq: 1, filename: KR6k0065_001.yaml, hash: 'sha256:8cffa53cce7c712785c4a6f6c5c328947a30ebc448952451004e44b493fc6db6'}
+  - {seq: 1, filename: KR6k0065_001.yaml, hash: 'sha256:ade46fb95fa9a698d440ddc0fdc603570a0985989b6686d58ad024652df9a47a'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6k0065_001.markers.yaml, hash: 'sha256:ddbe63bd511e6505ce5ab6522fe5eada723056de838dcfab93c3e15a97584168'}
+  - {seq: 0, role: markers, filename: assets/KR6k0065_000.markers.yaml, hash: 'sha256:19f6bc55d6fa2d18c2e6875ed77cd97bebc9b85ed780d84953a5247d9c56140e'}
+  - {seq: 1, role: markers, filename: assets/KR6k0065_001.markers.yaml, hash: 'sha256:22175442912a602ee1190a95f1af0ecf5ce42da715cb8e19b4229ea9ce44fb2c'}
 table_of_contents:
 - ref:
     seq: 1
@@ -48,7 +49,4 @@ table_of_contents:
   label: 佛說優婆塞五戒相經一卷
   type: juan
   level: 1
-hash: sha256:941f4ef5dc82b7b3a84f2cb601f0922e66d9ccb8ed75ca50b835ba10ae0686c0
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:7002bd9e74b85c43c54ee3770df441ef03c034b42363df9f0f67a5d6a8be321f
